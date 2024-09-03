@@ -1,0 +1,41 @@
+#editIcon {
+    display: flex;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+#editIcon:hover {
+    opacity: .5;
+    transition: .2s ease-in;
+}
+
+#editIcon img {
+    width: 15px;
+    height: 16px;
+}
+
+
+
+#editIcon button {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(238, 40%, 52%);
+    letter-spacing: 1px;
+    cursor: url('../../assets/Images/icons8-natural-user-interface-2-24.png'), pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    #editIcon button {
+        font-size: 18px;
+    }
+
+    div#editIcon img {
+        width: 14px;
+        height: 16px;
+    }
+
+
+}

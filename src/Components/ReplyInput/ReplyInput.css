@@ -1,0 +1,40 @@
+textarea {
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    height: 93px;
+    width: 60%;
+    outline: #d9d9d942 1px solid;
+    border: #d9d9d96b 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #00000030;
+    resize: none;
+    padding: 5px;
+    cursor: url('../../assets/Images/icons8-natural-user-interface-2-24.png'), pointer;
+}
+
+
+#ReplySection #ReplyInput input {
+    width: 205px;
+    height: 50px;
+}
+
+#ReplySection #ReplyInput button {
+
+    background: hsl(211, 10%, 45%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 89px;
+    height: 42px;
+    cursor: url('../../assets/Images/icons8-natural-user-interface-2-24.png'), pointer;
+}
+
+#ReplySection #ReplyInput button:hover {
+    opacity: .5;
+    transition: .2s ease-in;
+}
+
+button.disabledSend {
+    opacity: 65%;
+}

@@ -1,0 +1,190 @@
+#commentItem {
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    align-items: flex-start;
+    box-shadow: 0 0 9px 0;
+    width: 100%;
+    height: 100%;
+    overflow-wrap: anywhere;
+
+}
+
+div#commentItemContent {
+    width: 100%;
+}
+
+#commentHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 95px;
+}
+
+#commentTitle {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#commentTitle img {
+    width: 45px;
+}
+
+#commentTitle h4 {
+    color: hsl(212, 24%, 26%);
+    /* font-weight: 700; */
+}
+
+#commentTitle p {
+    color: hsl(211, 10%, 45%);
+}
+
+#commentContent p {
+    color: hsl(211, 10%, 45%);
+    line-height: 23px;
+    overflow-wrap: anywhere;
+}
+
+#ReplySection {
+    width: 100%;
+}
+
+#coverReplyItem {
+    border-left: 2px solid #c3c4ef;
+    margin-left: 38px;
+}
+
+
+
+#ReplyInput {
+    display: flex;
+    gap: 10px;
+    margin: 0 0 25px 0;
+    background: white;
+    height: 160px;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 9px 0;
+}
+
+
+
+
+#handleCounter {
+    display: flex;
+}
+
+
+#youbtn {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 47px;
+    height: 28px;
+}
+
+
+#NaglaUserAvatar {
+    width: 38px;
+}
+
+#ReplyInput textarea {
+    height: 93px;
+    width: 60%;
+    outline: #d9d9d942 1px solid;
+    border: #d9d9d96b 1px solid;
+    box-shadow: 0px 0px 5px 0px #00000030;
+    resize: none;
+}
+
+#commentIcons {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+#commentContent {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+#commentContent textarea {
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    height: 93px;
+    width: 80%;
+    outline: #d9d9d942 1px solid;
+    border: #d9d9d96b 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #00000030;
+    resize: none;
+}
+
+#commentContent textarea::placeholder {
+    color: hsl(211, 10%, 45%);
+    font-size: 17px;
+    padding: 10px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+#commentContent button {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 95px;
+    height: 42px;
+    cursor: url('../../assets/Images/icons8-natural-user-interface-2-24.png'), pointer;
+}
+
+#commentContent button:hover {
+    opacity: .5;
+    transition: .2s ease-in;
+}
+
+@media screen and (max-width: 600px) {
+
+    #commentItem {
+        width: 100%;
+        position: relative;
+        height: 287px;
+        font-size: 14px;
+    }
+
+    #commentTitle {
+        justify-content: space-evenly;
+    }
+
+    #commentIcons {
+        position: absolute;
+        bottom: 18px;
+        right: 26px;
+        gap: 21px;
+    }
+
+    #youbtn {
+        width: 36px;
+        height: 25px;
+    }
+
+
+
+}

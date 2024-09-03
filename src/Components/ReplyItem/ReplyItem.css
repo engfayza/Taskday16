@@ -1,0 +1,144 @@
+#replyItem {
+    background: rgb(255, 255, 255);
+    margin-left: 32px;
+    margin-bottom: 16px;
+    padding: 30px;
+    display: flex;
+    gap: 26px;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 9px 0;
+    width: 95%;
+    height: 210px;
+
+}
+
+#replayContent {
+    width: 90%;
+}
+
+#replyHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 52px;
+}
+
+#replyTitle {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#replyTitle img {
+    width: 45px;
+}
+
+#replyContent {
+    color: hsl(211, 10%, 45%);
+    line-height: 23px;
+    overflow-wrap: anywhere;
+}
+
+#deleteComment img {
+    width: 13px;
+    height: 15px;
+}
+
+#replyIcons {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+#replayContent span {
+    color: blue;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+#replyContent {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#replyContent textarea {
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    height: 93px;
+    width: 75%;
+    outline: #d9d9d942 1px solid;
+    border: #d9d9d96b 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #00000030;
+    resize: none;
+}
+
+#replyContent textarea::placeholder {
+    color: hsl(211, 10%, 45%);
+    font-size: 17px;
+    padding: 10px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+#replyContent button {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 95px;
+    height: 42px;
+    cursor: url('../../assets/Images/icons8-natural-user-interface-2-24.png'), pointer;
+}
+
+#replyContent button:hover {
+    opacity: .5;
+    transition: .2s ease-in;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #replyItem {
+        width: 100%;
+        position: relative;
+        height: 313px;
+        font-size: 14px;
+        margin-left: 18px;
+    }
+
+    #replayContent {
+        width: 100%;
+    }
+
+    #replyTitle {
+        justify-content: space-evenly;
+        gap: 7px;
+    }
+
+    #replyTitle p {
+        text-wrap: nowrap;
+    }
+
+    #coverReplyItem {
+        border-left: 2px solid #c3c4ef;
+        margin-left: 24px;
+    }
+
+
+
+    #replyIcons {
+        position: absolute;
+        bottom: 22px;
+        right: 19px;
+        gap: 16px;
+    }
+
+
+}
